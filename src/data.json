@@ -2,36 +2,86 @@
   "誕生": {
     "age": 0,
     "month": 0,
-    "motivation": 95
+    "motivation": 50
   },
-  "誕生v2": {
-    "age": 0,
-    "month": 6,
-    "motivation": 80
-  },
-  "幼少期": {
+  "保育園": {
     "age": 5,
-    "month": 6,
-    "motivation": 85
-  },
-  "青年": {
-    "age": 10,
-    "month": 3,
-    "motivation": 75
-  },
-  "思春期": {
-    "age": 15,
-    "month": 9,
-    "motivation": 60
-  },
-  "成熟": {
-    "age": 20,
     "month": 0,
     "motivation": 50
   },
-  "老年": {
-    "age": 25,
-    "month": 6,
+  "小学校": {
+    "age": 6,
+    "month": 0,
+    "motivation": 90
+  },
+  "中学校": {
+    "age": 12,
+    "month": 4,
+    "motivation": 60
+  },
+  "高校": {
+    "age": 15,
+    "month": 9,
+    "motivation": 80
+  },
+  "大学入学": {
+    "age": 18,
+    "month": 4,
+    "motivation": 80
+  },
+  "大学 バイト・部活": {
+    "age": 19,
+    "month": 4,
     "motivation": 30
-  }
+  },
+    "大学 ジムバイト": {
+        "age": 19,
+        "month": 8,
+        "motivation": 60
+    },
+    "大学 コロナ": {
+        "age": 20,
+        "month": 4,
+        "motivation": 30
+    },
+    "大学 インターン": {
+        "age": 21,
+        "month": 0,
+        "motivation": 70
+    },
+    "いえらぶ入社": {
+        "age": 22,
+        "month": 4,
+        "motivation": 40
+    },
+    "いえらぶ退社": {
+        "age": 22,
+        "month": 6,
+        "motivation": 10
+    },
+    "MITS入社": {
+        "age": 22,
+        "month": 7,
+        "motivation": 40
+    },
+    "MITS PHPv4時代": {
+        "age": 23,
+        "month": 6,
+        "motivation": 50
+    },
+    "MITS 投げ銭開始": {
+        "age": 24,
+        "month": 0,
+        "motivation": 80
+    },
+    "MITS 退職": {
+        "age": 24,
+        "month": 12,
+        "motivation": 40
+    },
+    "Sincreed": {
+        "age": 25,
+        "month": 1,
+        "motivation": 70
+    }
 }
