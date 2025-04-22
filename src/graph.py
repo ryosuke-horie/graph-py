@@ -9,10 +9,10 @@ motivation = data["motivation"]
 
 # モチベーショングラフを作成
 plt.figure(figsize=(8, 4))
-plt.plot(ages, motivation, marker='o', linestyle='-', color='blue', label='モチベーション')
-plt.title("モチベーショングラフ")
-plt.xlabel("年齢")
-plt.ylabel("モチベーション（％）")
+plt.plot(ages, motivation, marker='o', linestyle='-', color='blue', label='Motivation')
+plt.title("Motivation Graph")
+plt.xlabel("Age")
+plt.ylabel("Motivation (%)")
 plt.legend()
 plt.grid(True)
 
