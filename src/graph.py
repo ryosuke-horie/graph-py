@@ -8,13 +8,14 @@ with open("src/data.json", "r") as f:
 ages = []
 motivation = []
 for entry in data.values():
-    ages.append(entry["age"])
+    age_fraction = entry["age"] + entry.get("month", 0) / 12
+    ages.append(age_fraction)
     motivation.append(entry["motivation"])
 
 # モチベーショングラフを作成
 plt.figure(figsize=(8, 4))
 plt.plot(ages, motivation, marker='o', linestyle='-', color='blue', label='Motivation')
-plt.title("Motivation Graph")
+plt.title("Motivation Graph (Fractional Age)")
 plt.xlabel("Age")
 plt.ylabel("Motivation (%)")
 plt.legend()

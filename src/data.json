@@ -1,26 +1,37 @@
 {
   "誕生": {
     "age": 0,
+    "month": 0,
     "motivation": 95
+  },
+  "誕生v2": {
+    "age": 0,
+    "month": 6,
+    "motivation": 80
   },
   "幼少期": {
     "age": 5,
+    "month": 6,
     "motivation": 85
   },
   "青年": {
     "age": 10,
+    "month": 3,
     "motivation": 75
   },
   "思春期": {
     "age": 15,
+    "month": 9,
     "motivation": 60
   },
   "成熟": {
     "age": 20,
+    "month": 0,
     "motivation": 50
   },
   "老年": {
     "age": 25,
+    "month": 6,
     "motivation": 30
   }
 }
