@@ -1,4 +1,26 @@
 {
-    "ages": [0, 5, 10, 15, 20, 25],
-    "motivation": [95, 85, 75, 60, 50, 30]
+  "誕生": {
+    "age": 0,
+    "motivation": 95
+  },
+  "幼少期": {
+    "age": 5,
+    "motivation": 85
+  },
+  "青年": {
+    "age": 10,
+    "motivation": 75
+  },
+  "思春期": {
+    "age": 15,
+    "motivation": 60
+  },
+  "成熟": {
+    "age": 20,
+    "motivation": 50
+  },
+  "老年": {
+    "age": 25,
+    "motivation": 30
+  }
 }
