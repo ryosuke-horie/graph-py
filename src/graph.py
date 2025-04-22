@@ -33,11 +33,8 @@ plt.plot([age_transform(x) for x in ages], motivation,
          marker='o', linestyle='-', color='blue', label='Motivation')
 plt.axhline(50, color='red', linestyle='--', label='50%')
 
-# y軸を50%を中心に設定
-y_min = min(motivation)
-y_max = max(motivation)
-max_dev = max(abs(50 - y_min), abs(y_max - 50))
-plt.ylim(50 - max_dev, 50 + max_dev)
+# y軸を0-100%に設定
+plt.ylim(0, 100)
 
 # グラフの見た目を調整
 plt.title("Motivation Graph (Custom Age Scale)", fontsize=12)
